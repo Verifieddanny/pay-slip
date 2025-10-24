@@ -24,3 +24,12 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@keyframes dash {
+  to { background-position: 10px 0; }
+}
+
+
+.no-scroll::-webkit-scrollbar{
+  display: none;
+}
